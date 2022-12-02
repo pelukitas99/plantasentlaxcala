@@ -1,0 +1,33 @@
+/*========================
+||Función para desactivar
+||todos los campos de textos + botones.
+==========================*/
+.btn.btn-file {
+  position: relative;
+  width: auto;
+  height: 35px;
+  overflow: hidden;
+}
+.btn.btn-file > input[type='file'] {
+  display: block !important;
+  width: 100% !important;
+  height: 35px !important;
+  opacity: 0 !important;
+  position: absolute;
+  top: -10px;
+  cursor: pointer;
+}
+
+.form-control{
+  border-radius: 0px;
+}
+
+.btn{
+	border-radius: 0px;
+}
+
+.btn.color{
+	color: #FFF;
+}
+
+.alert{border-radius: 0px;}
